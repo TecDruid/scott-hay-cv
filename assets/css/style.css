@@ -75,7 +75,22 @@ h4 {
     margin-bottom: 40px;
 }
 
-.history-heading 
+
+.ui-menu-color-home {
+ background-color: #f6a709;   
+}
+
+.ui-menu-color-resume {
+ background-color: purple;   
+}
+
+.ui-menu-color-contact {
+ background-color: aqua;   
+}
+
+.ui-menu-color-download {
+ background-color: #26ec7c;   
+}
 
 /*----------------------Header------------------------*/
 
@@ -89,6 +104,7 @@ header {
 
 .logo {
     background: url("../Images/me.jpg");
+    background: url("/assets/Images/me.jpg"); 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -143,7 +159,11 @@ header {
     text-decoration: none;
     color: white;
     height: 120px;
+
 }
+
+
+
 
 .menuitem a i {
     padding-top: 22px;
@@ -164,6 +184,7 @@ header {
 }
 
 /*----------------------Header------------------------*/
+
 
 .hvr-sweep-to-bottom:before
 /*usinging inspect tool with the hover state toggled. It's in the before pseudo element where the background color is set for our hover sweep to bottom class. */
